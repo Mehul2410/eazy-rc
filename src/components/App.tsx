@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 type Props = {
   value?: number
 }
-const MyCounter = ({ value = 0 }: Props) => {
+export const MyCounter = ({ value = 0 }: Props) => {
   const [counter, setCounter] = useState(value)
 
   const onMinus = () => {
@@ -22,5 +22,3 @@ const MyCounter = ({ value = 0 }: Props) => {
     </div>
   )
 }
-
-export default MyCounter
