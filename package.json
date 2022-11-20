@@ -1,6 +1,6 @@
 {
   "name": "eazy-rc",
-  "version": "1.0.0",
+  "version": "v1.0.02",
   "description": "Easy React Components library",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
